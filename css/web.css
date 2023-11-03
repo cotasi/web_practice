@@ -122,11 +122,3 @@ a:hover {
 .smenu a:hover {
     background-color:rgb(12, 81, 166,.5);
 }
-
-.swiper-wrapper {
-    display: flex;
-}
-
-#swiper {
-    overflow: hidden;
-}
