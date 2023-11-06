@@ -4,12 +4,12 @@ $(document).ready(function () {
     // 태그객체.animate({},speed,function());
     // 태그객체.css(스타일,값)
     // 태그객체.appendTo(옮겨질객체)
-    const aniw = $('.swiper-slide').width();
+    const anih = $('.swiper-slide').height();
 
     setInterval(function(){
-        $('.swiper-wrapper').animate({"marginLeft":-aniw},400,function(){
+        $('.swiper-wrapper').animate({"marginTop":-anih},400,function(){
             $('.swiper-slide').eq(0).appendTo($('.swiper-wrapper'))
-            $('.swiper-wrapper').css("marginLeft",0)
+            $('.swiper-wrapper').css("marginTop",0)
         })
     },3000);
 })
